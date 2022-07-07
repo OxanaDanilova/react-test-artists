@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className="card m-5 mx-auto w-50">
+    <div className="card m-5 mx-auto" style={{ width: "300px" }}>
       <img className="card-img-top" src={data.image} alt="Bob Dylan" />
 
       <div className="card-body">
