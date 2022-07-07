@@ -1,4 +1,5 @@
-import "./App.scss";
+import "bootstrap/dist/css/bootstrap.css";
+
 function App() {
   const data = {
     image:
@@ -13,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className="card m-5 mx-auto">
+    <div className="card m-5 mx-auto w-50">
       <img className="card-img-top" src={data.image} alt="Bob Dylan" />
 
       <div className="card-body">
