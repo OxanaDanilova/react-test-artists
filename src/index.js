@@ -1,5 +1,6 @@
+import React from "react";
 import ReactDOM from "react-dom/client"; //we use ReactDOM to render into the DOM
-import './App.css';
+import App from "./App.js";
 
 /**
  * define the variable 'content' here and fill it with the

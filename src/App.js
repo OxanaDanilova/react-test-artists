@@ -1,5 +1,5 @@
+import "./App.scss";
 function App() {
-
   const data = {
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg/800px-Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg",
@@ -11,6 +11,20 @@ function App() {
       label: "Go to wikipedia",
     },
   };
+
+  return (
+    <div className="card m-5 mx-auto">
+      <img className="card-img-top" src={data.image} alt="Bob Dylan" />
+
+      <div className="card-body">
+        <h5 className="card-title">{data.cardTitle}</h5>
+        <p className="card-text">{data.cardDescription}</p>
+        <a href={data.button.url} className="btn btn-primary">
+          {data.button.label}
+        </a>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
