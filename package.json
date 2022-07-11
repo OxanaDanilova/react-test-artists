@@ -1,6 +1,7 @@
 {
   "name": "spa-boilerplate-building-layout",
   "version": "0.1.0",
+  "homepage": "https://oxanadanilova.github.io/react-test-artists/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
